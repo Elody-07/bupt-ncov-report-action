@@ -1,10 +1,6 @@
-name: Automatically submit the 2019-nCoV report sheet of BUPT
+name: Manually submit the 2019-nCoV report sheet of BUPT
 
-on:
-  schedule:
-    - cron: '0 0 * * *'
-  push:
-  pull_request:
+on: workflow_dispatch
 
 jobs:
   checker:
